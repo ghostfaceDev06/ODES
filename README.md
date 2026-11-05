@@ -31,6 +31,8 @@ The material is extract at subject IC881 - MÉTODOS NUMÉRICOS PARA A SOLUÇÃO 
 - Adams-Moulton: 2 to 5 pass
 - Predictor and Corrector Method
 - Milne method
+- System of ODES
+- Shooting
   
 ---
 
