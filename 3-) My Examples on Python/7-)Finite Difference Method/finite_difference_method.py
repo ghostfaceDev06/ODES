@@ -61,6 +61,7 @@ abs_error = np.abs(Y_exact-Y_num)
 
 #Calculing relative error
 rel_error = abs_error/ np.abs(Y_num)
+if Y_num[0] == 0: rel_error[0] = 0
 
 #Calculing until x and y
 until_x = np.linspace(a,b,200)

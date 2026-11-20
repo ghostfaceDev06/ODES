@@ -82,6 +82,7 @@ abs_error = np.abs(y_exact - y_numeric)
 
 #Calculing relative error
 rel_error = abs_error/np.abs(y_numeric)
+if y_numeric[0] == 0: rel_error[0] = 0
 
 #Creating dictionary 
 dic = {
